@@ -1,0 +1,14 @@
+var Countries = ["Japan", "Canada", "South Korea", "France", "Italy", "Malaysia"];
+console.log("Original order:", Countries);
+console.log("Alphabetical order:", [Countries].sort());
+console.log("Original order:", Countries);
+console.log("Reverse alphabetical order:", [Countries].sort().reverse());
+console.log("Original order:", Countries);
+Countries.reverse();
+console.log("Reversed order:", Countries);
+Countries.reverse();
+console.log("Original order:", Countries);
+Countries.sort();
+console.log("Alphabetical order:", Countries);
+Countries.reverse();
+console.log("Reverse alphabetical order:", Countries);
